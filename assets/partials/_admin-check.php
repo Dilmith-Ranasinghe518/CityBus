@@ -1,4 +1,3 @@
-<!--Ravidu-->
 <?php
     session_start();
 

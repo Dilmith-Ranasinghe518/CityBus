@@ -1,4 +1,3 @@
-<!--Ravidu-->
 <?php
     require '_functions.php';
     $conn = db_connect();
