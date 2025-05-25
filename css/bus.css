@@ -1,0 +1,49 @@
+body{
+
+    background-image: url("../images/bcruu.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+    color: black;
+    background-color: darkcyan;
+    
+}
+.btns{
+    background-color: blue;
+    border: none;
+    color: azure;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.btnss{
+    background-color: red;
+    border: none;
+    color: azure;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.btnsss{
+    background-color: green;
+    border: none;
+    color: azure;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+}
