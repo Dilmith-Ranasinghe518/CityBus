@@ -6,13 +6,13 @@ if (!$conn) {
     die("Oh Shoot!! Connection Failed");
 }
 
-    if($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST["submit"]))
-    {
-        $username = $_POST['username'];
-        $password = $_POST['password'];
+if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST["submit"])) {
+    $username = trim($_POST['username']);
+    $password = $_POST['password'];
+    $username = mysqli_real_escape_string($conn, $username);
 
-        $sql = "SELECT * FROM users WHERE user_name='$username';";
-        $result = mysqli_query($conn, $sql);
+    $sql = "SELECT * FROM users WHERE user_name = '$username'";
+    $result = mysqli_query($conn, $sql);
 
     if (!$result) {
         echo "Something went wrong. Try again.";
