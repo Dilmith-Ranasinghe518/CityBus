@@ -46,7 +46,7 @@
     
     </div>
     <script src="./js/driverjs.js"></script>
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDyH_WBDQnt9VlMYmnJ0itANXXmjaObbQI&callback=initMap" defer></script>
+   
 </body>
 <?php include "./footer.php" ?>
 </html>
